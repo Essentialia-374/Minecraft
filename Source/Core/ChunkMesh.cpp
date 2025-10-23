@@ -162,7 +162,7 @@ namespace Minecraft
 		// no, it just wastes cycles.
 	}
 
-	// Construct mesh using greedy meshing for maximum performance
+	//@TODO: using greedy meshing here
 	bool ChunkMesh::ConstructMesh(Chunk* chunk, const glm::vec3& chunk_pos)
 	{
 		ChunkDataTypePtr ChunkData = &chunk->p_ChunkContents;
